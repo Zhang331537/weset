@@ -16,12 +16,12 @@ int main() {
   printf("address of index 2: %p\n", ptr_to_idx_2);
 
   // TODO: store the value 10 at index 2, using ptr_to_idx_2
-  int8_t ptr_to_idx_2 = 10;
+  int8_t * ptr_to_idx_2 = 10;
 
   // TODO: print the value at index 2
   // Hint: this blank should be the same as the previous blank
   //       please don't hard code 10
-  printf("value at index 2: %d\n", ptr_to_idx_2);
+  printf("value at index 2: %d\n", * ptr_to_idx_2);
 
   return 0;
 }
